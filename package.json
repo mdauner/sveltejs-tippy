@@ -1,0 +1,94 @@
+{
+  "name": "sveltejs-tippy",
+  "description": "Tippy.js for Svelte",
+  "version": "0.0.0-semantically-released",
+  "license": "MIT",
+  "repository": "github:mdauner/sveltejs-tippy",
+  "svelte": "src/index.js",
+  "module": "dist/index.min.mjs",
+  "main": "dist/index.min.js",
+  "devDependencies": {
+    "@babel/core": "7.6.3",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.6.0",
+    "@babel/preset-env": "7.6.3",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@testing-library/jest-dom": "4.1.1",
+    "@testing-library/svelte": "1.9.0",
+    "@types/jest": "24.0.18",
+    "autoprefixer": "9.6.4",
+    "babel-jest": "24.9.0",
+    "cz-conventional-changelog": "3.0.2",
+    "eslint": "6.4.0",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-svelte3": "2.7.3",
+    "husky": "3.0.5",
+    "jest": "24.9.0",
+    "lint-staged": "9.4.2",
+    "npm-run-all": "4.1.5",
+    "postcss": "7.0.18",
+    "prettier": "1.18.2",
+    "prettier-plugin-svelte": "^0.7.0",
+    "rollup": "1.23.1",
+    "rollup-plugin-babel": "4.3.3",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-livereload": "1.0.4",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-postcss": "2.0.3",
+    "rollup-plugin-replace": "2.2.0",
+    "rollup-plugin-svelte": "5.1.0",
+    "rollup-plugin-terser": "5.1.2",
+    "semantic-release": "^15.13.24",
+    "sirv-cli": "0.4.4",
+    "svelte": "3.12.1",
+    "svelte-jest": "0.3.1",
+    "svelte-preprocess": "3.1.1"
+  },
+  "dependencies": {
+    "tippy.js": "5.0.2"
+  },
+  "scripts": {
+    "prettier": "prettier --check '**/*.{svelte, html, css, scss, stylus, js, ts, json, yml, md}' --plugin-search-dir=.",
+    "lint": "eslint --color './**/*.{js,svelte}'",
+    "test": "jest",
+    "autobuild": "rollup -c -w",
+    "start:dev": "sirv public --single --dev",
+    "dev": "run-p start:dev autobuild",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "semantic-release": "semantic-release"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js, svelte}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{html, css, scss, stylus, js, ts, json, yml, md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
