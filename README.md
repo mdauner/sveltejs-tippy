@@ -20,3 +20,31 @@ or
 ```shell
 $ yarn add sveltejs-tippy
 ```
+
+## How to use
+
+### Example
+
+[![Edit sveltejs-tippy](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/sveltejs-tippy-h2ns7?fontsize=14&module=%2FApp.svelte)
+
+```html
+<script>
+  import tippy from "sveltejs-tippy";
+
+  const props = {
+    content: "<span class='tooltip'>Styled tooltip text</span>",
+    placement: "bottom"
+  };
+</script>
+
+<style>
+  :global(.tooltip) {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+</style>
+
+<button use:tippy={{props}}>
+  Hover me
+</button>
+```
