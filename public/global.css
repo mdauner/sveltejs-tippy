@@ -1,0 +1,7 @@
+html {
+  height: 100vh;
+}
+
+body, #sapper {
+  height: 100%;
+}
