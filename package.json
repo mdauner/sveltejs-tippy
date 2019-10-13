@@ -64,7 +64,11 @@
     "defaults"
   ],
   "keywords": [
-    "svelte"
+    "svelte",
+    "tooltip",
+    "popover",
+    "tippy",
+    "tippy.js"
   ],
   "files": [
     "src",
