@@ -9221,10 +9221,10 @@ tinydate@^1.0.0:
   resolved "https://registry.yarnpkg.com/tinydate/-/tinydate-1.2.0.tgz#36b4bb02715f89743f3ef9073d3573d005a28d0e"
   integrity sha512-3GwPk8VhDFnUZ2TrgkhXJs6hcMAIIw4x/xkz+ayK6dGoQmp2nUwKzBXK0WnMsqkh6vfUhpqQicQF3rbshfyJkg==
 
-tippy.js@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.0.2.tgz#83cdfdceb14e7e4c5afab6ae3ffb0b10f9310c23"
-  integrity sha512-Zj7ihX2/uImDudNkfxw9jgcbtg9sUKT3QRmuH9WJtKkX6M96SwMG8FPdiObholc4SJP6wlnqk0nqByjXb8QZSA==
+tippy.js@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.0.3.tgz#f019c1e467addd1087a08e9fb43968195076da4f"
+  integrity sha512-6OVy2/pWuzcphHdEAK/2GPOOsT75AY9D7Xhk9U6WHB/dT737avXtgW1K6ch8jrp81PxbXxHgdmeHRPBnqunwpQ==
   dependencies:
     popper.js "^1.15.0"
 
