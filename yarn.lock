@@ -7140,10 +7140,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-popper.js@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
-  integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
+popper.js@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
+  integrity sha512-+G+EkOPoE5S/zChTpmBSSDYmhXJ5PsW8eMhH8cP/CQHMFPBG/kC9Y5IIw6qNYgdJ+/COf0ddY2li28iHaZRSjw==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -9230,12 +9230,12 @@ tinydate@^1.0.0:
   resolved "https://registry.yarnpkg.com/tinydate/-/tinydate-1.2.0.tgz#36b4bb02715f89743f3ef9073d3573d005a28d0e"
   integrity sha512-3GwPk8VhDFnUZ2TrgkhXJs6hcMAIIw4x/xkz+ayK6dGoQmp2nUwKzBXK0WnMsqkh6vfUhpqQicQF3rbshfyJkg==
 
-tippy.js@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.0.2.tgz#83cdfdceb14e7e4c5afab6ae3ffb0b10f9310c23"
-  integrity sha512-Zj7ihX2/uImDudNkfxw9jgcbtg9sUKT3QRmuH9WJtKkX6M96SwMG8FPdiObholc4SJP6wlnqk0nqByjXb8QZSA==
+tippy.js@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.1.0.tgz#80c99a79f005767008a799bd354c36e2b53c87db"
+  integrity sha512-OHIF/a4tWOzhwSyuXR6ZuADYUHOohXQDXceONcRjLBUzEcdt2lAIqVeQflmCczkZ0Q4g1G5ihezx7kfL/lNylg==
   dependencies:
-    popper.js "^1.15.0"
+    popper.js "^1.16.0"
 
 tmp@^0.0.33:
   version "0.0.33"
