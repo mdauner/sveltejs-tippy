@@ -1022,6 +1022,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
+"@popperjs/core@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.0.6.tgz#5a39ac118811ca844155b0ad5190b8c24f35e533"
+  integrity sha512-zj7Gw8QC4jmR92eKUvtrZUEpl2ypRbq+qlE4pwf9n2hnUO9BOAcWUs4/Ht+gNIbFt98xtqhLvccdCfD469MzpQ==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -7184,11 +7189,6 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-popper.js@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
-  integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
-
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -9283,12 +9283,12 @@ tinydate@^1.0.0:
   resolved "https://registry.yarnpkg.com/tinydate/-/tinydate-1.2.0.tgz#36b4bb02715f89743f3ef9073d3573d005a28d0e"
   integrity sha512-3GwPk8VhDFnUZ2TrgkhXJs6hcMAIIw4x/xkz+ayK6dGoQmp2nUwKzBXK0WnMsqkh6vfUhpqQicQF3rbshfyJkg==
 
-tippy.js@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.0.2.tgz#83cdfdceb14e7e4c5afab6ae3ffb0b10f9310c23"
-  integrity sha512-Zj7ihX2/uImDudNkfxw9jgcbtg9sUKT3QRmuH9WJtKkX6M96SwMG8FPdiObholc4SJP6wlnqk0nqByjXb8QZSA==
+tippy.js@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.0.0.tgz#6bc4f477ea82ef344db51ae34f106a8b25f2d02c"
+  integrity sha512-2NVc5A8cnO9N/Fk+tTU6KEm6m8ZXT1u3pOY756zZ5BE38rWDl/hVyoWhTfM79HW1nEJSpn/VujqAMMZGHsE9qQ==
   dependencies:
-    popper.js "^1.15.0"
+    "@popperjs/core" "^2.0.6"
 
 tmp@^0.0.33:
   version "0.0.33"
