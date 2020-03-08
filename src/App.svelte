@@ -4,13 +4,13 @@
 
   const props = {
     content: '<div class="tooltip">Styled tooltip text</div>',
+    allowHTML: true,
     followCursor: true,
+    plugins: [followCursor],
     onShow: function(instance) {
       console.log(instance);
     },
   };
-
-  const plugins = [followCursor];
 </script>
 
 <style>
@@ -37,5 +37,5 @@
 </style>
 
 <div class="wrapper">
-  <span use:tippy={{ props, plugins }}>Hover Me</span>
+  <span use:tippy={props}>Hover Me</span>
 </div>

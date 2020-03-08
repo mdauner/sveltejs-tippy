@@ -44,7 +44,7 @@ $ yarn add sveltejs-tippy
   }
 </style>
 
-<button use:tippy={{props}}>
+<button use:tippy={props}>
   Hover me
 </button>
 ```
