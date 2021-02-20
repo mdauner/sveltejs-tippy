@@ -33,6 +33,7 @@ $ yarn add sveltejs-tippy
 
   const props = {
     content: "<span class='tooltip'>Styled tooltip text</span>",
+    allowHTML: true,
     placement: "bottom"
   };
 </script>
